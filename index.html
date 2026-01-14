@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Plano de Treino - Home Workout</title>
+
+    <link rel="stylesheet" href="./styele.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>🏋️ Meu Treino Semanal</h1>
+
+            <p class="subtitle">Foco: Ganho de Massa & Fortalecimento de Joelho</p>
+
+            <div id="alet_popup" class="popup">
+                <div class="modal-content">
+            <span id="close-popup" class="close-popup">&times;</span>
+            <div class="alert">⚠️ Atenção com o joelho direito: Movimentos lentos e controlados!</div>
+            </div>
+            </div>
+
+        </header>
+
+        <nav class="tabs">
+
+            <button class="tab-btn active" onclick="openTab(event, 'segunda')">SEG/QUI</button>
+
+            <button class="tab-btn" onclick="openTab(event, 'terca')">TER/SEX</button>
+
+            <button class="tab-btn" onclick="openTab(event, 'sabado')">SÁBADO</button>
+
+        </nav>
+
+        <div id="segunda" class="tab-content active">
+
+            <h2>Superior + Core (Treino A)</h2>
+
+            <div class="exercise-list">
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Flexão com joelhos no chão</h3>
+
+                        <p>3 séries de 10-12 reps | Peito e Tríceps</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Remada Curvada (Mochila/Galão)</h3>
+
+                        <p>3 séries de 12 reps | Costas e Bíceps</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Desenvolvimento (Garrafas d'água)</h3>
+
+                        <p>3 séries de 12 reps | Ombros</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Prancha Abdominal</h3>
+
+                        <p>3 séries de 30 segundos | Abdômen</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="terca" class="tab-content">
+
+            <h2>Inferiores (Treino B - Foco Joelho)</h2>
+
+            <div class="exercise-list">
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Sentar e Levantar da Cadeira</h3>
+
+                        <p>3 séries de 12 reps | Quadríceps (Seguro)</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Elevação de Pélvis (Ponte)</h3>
+
+                        <p>3 séries de 15 reps | Glúteos e Posterior</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Cadeira Isométrica na Parede</h3>
+
+                        <p>3 séries de 30 seg | Fortalecimento do Joelho</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Elevação de Panturrilha</h3>
+
+                        <p>3 séries de 20 reps | Panturrilhas</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="sabado" class="tab-content">
+
+            <h2>Cardio & Mobilidade</h2>
+
+            <div class="exercise-list">
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Boxe Imaginário</h3>
+
+                        <p>10 rounds de 1 min | Cardio sem impacto</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Marcha Estacionária</h3>
+
+                        <p>5 minutos constantes | Aquecimento</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <input type="checkbox">
+
+                    <div class="info">
+
+                        <h3>Alongamento de Quadríceps</h3>
+
+                        <p>30 segundos cada lado | Flexibilidade</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
