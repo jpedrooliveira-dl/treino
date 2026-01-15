@@ -32,3 +32,13 @@ function openTab(evt, tabName) {
 
 }
 
+
+const closeBtn = document.getElementById("close-popup")
+
+closeBtn.addEventListener('click', () => {
+    const popup = document.getElementById("alert_popup")
+
+    popup.style.display = "none"
+    console.log("⚠️Popup fechado")
+})
+
